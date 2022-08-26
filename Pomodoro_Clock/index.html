@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap full CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pomodoro Clock</title>
+
+</head>
+
+<body>
+    <header class="clock">Pomodoro Clock</header>
+    <!-- I can see an element with id="break-label" that contains a string (e.g. "Break Length") -->
+    <div class="div-container">
+        <label id="break-label">"Break Decrement"</label>
+        <button class="btn btn-primary" id="break-decrement">Break</button>
+        <!-- <div id="break-length">5:00</div> -->
+    </div>
+    <!-- I can see an element with id="session-label" that contains a string (e.g. "Session Length") -->
+    <div class="div-container-two">
+        <label id="session-label">"Session Decrement"</label>
+        <button class="btn btn-success" id="session-decrement">Session</button>
+        <!-- <div id="session-length">25:00</div> -->
+    </div>
+    <!-- I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement" -->
+
+    <!-- I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment" -->
+    <div class="div-container-three">
+        <label id="break-two-label">"Break Increment"</label>
+        <button class="btn btn-primary" id="break-increment">Break</button>
+        <!-- <div id="break-left">5:00</div> -->
+    </div>
+    <!-- I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5 -->
+
+    <!-- I can see an element with a corresponding id="session-length", which by default displays a value of 25 -->
+
+    <!-- I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session") -->
+    <div class="div-container-four">
+        <label id="timer-label">"Session Increment"</label>
+        <button class="btn btn-success" id="session-increment">Session</button>
+        <!-- <div id="time-left">25:00</div> -->
+    </div>
+    <!-- I can see an element with corresponding id="time-left". NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00) -->
+
+    <!-- I can see a clickable element with a corresponding id="start_stop" -->
+    <div class="reset-button">
+        <label id="reset-label">"Reset Button"</label>
+        <button class="btn btn-warning" id="reset">Reset</button>
+    </div>
+    <!-- I can see a clickable element with a corresponding id="reset" -->
+    <!-- When I click the element with the id of reset, any running timer should be stopped, the value within id="break-length" should return to 5, the value within id="session-length" should return to 25, and the element with id="time-left" should reset to it's default state. -->
+    <div class="stop-button">
+        <label id="stop-label">"Stop Button"</label>
+        <button class="btn btn-danger" id="start_stop">Stop</button>
+    </div>
+
+
+    <div id="display">
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- import jquery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- import D3.js -->
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

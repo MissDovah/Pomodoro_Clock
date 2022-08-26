@@ -1,0 +1,75 @@
+.clock {
+    font-size: xxx-large;
+    text-align: center;
+    font-family:fantasy;
+    color:gold;
+    text-shadow: 2px 2px 9px rgb(5, 5, 5);
+}
+
+
+.div-container {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;  
+}
+
+.div-container-two {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;
+}
+
+.div-container-three {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;
+}
+
+.div-container-four {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;
+}
+
+.reset-button {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;
+    
+}
+
+.stop-button {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    gap: 10px;
+    padding: 10px;
+    margin: 0% 34%;
+}
+
+#display {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-image: url("time.jpg");
+    background-position: center;
+}
+
+div {
+    color:antiquewhite;
+    text-shadow: 2px 2px 9px rgb(5, 5, 5);
+}
